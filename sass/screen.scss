@@ -1,0 +1,191 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+body
+{
+	max-width:1280px;
+	margin: 0 auto;
+	background-color:RGBA(90, 104, 114, .08);
+}
+.header
+{
+	width:100%;
+	background-image:url('../img/bg-header.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:10px;
+    font-family: "Open Sans";
+    height: 350px;
+    margin-bottom: 30px;
+      a {
+    	text-decoration: none;
+    	color: white;
+    }
+    .nav
+    {
+    	display: inline-block;
+    	float: left;
+    }
+    .logo
+    {
+    display:inline-block;
+    padding-left: 130px;
+    padding-top: 20px;
+    float: left;
+    }
+    .menu
+    {
+    display:inline-block;
+    margin-top: 30px;
+    clear: both;
+    }
+    .menu li
+    {
+ display:inline-block;
+ font-size: 20px;
+ line-height: 22px;
+ padding: 0 40px;
+a {
+	padding-bottom: 4px;
+}
+ a:hover{
+ 	border-bottom: 2px solid white;
+ }
+    }
+    .ad {
+    	width: 260px;
+    	background-color: #44B574;
+    	margin-top: 18px;
+    	display: inline-block;
+       font-size: 20px;
+       text-align: center;
+       
+       padding: 15px 0;
+    }
+    .ad img {
+    	padding: 0 7px;
+    	vertical-align: middle;
+    	padding-bottom: 3px;
+    }
+    .entry
+    {
+    	margin-left: 5px;
+    }
+    h1
+    {
+    	margin-top: 90px;
+    	margin-left: 130px;
+    	color: white;
+    	font-size: 32px;
+    }
+    p 
+    {
+    	color: white;
+    	font-size: 14px;
+    	
+    	margin-top: 40px;
+    	padding-bottom: 5px;
+    	display: inline-block;
+    }
+    #city {
+    	margin-left: 130px;
+    }
+    input[type="text"]
+    {
+    	margin-left: 130px;
+    	display: block;
+    }
+    .city 
+    {
+    	display: inline-block;
+    }
+    .room
+    {
+    	display: inline-block;
+    	margin-left: 300px;
+    }
+    .room ul 
+    {
+    	margin-top: 25px;
+    }
+    .room ul li
+    {
+    display: inline-block;
+    }
+    .room ul li a 
+    {
+    	text-decoration: none;
+    	color: white;
+    	border:2px solid white;
+    	border-radius: 50%;
+    	padding: 15px 20px;;
+    }
+    .room ul li:last-child a
+    {
+    	padding: 15px;
+    }
+    .search
+    {
+    	margin-left: 40px;
+    	padding: 10px 30px;
+    	background-color: white;
+    	color: #30AE63;
+    }
+}
+.property
+{   
+	background-color: white;
+	width: 80%;
+	height: 400px;
+	margin-top: 20px;
+	margin: 0 auto;
+	.left-side
+	{
+		float: left;
+		width: 50%;
+		margin-left: 35px;
+
+		h1
+		{
+			font-size: 32px;
+			margin-top: 32px;
+		}
+		ul 
+		{
+			margin-top: 40px;
+		}
+		ul li:first-child
+		{
+			padding-right : 20px;
+			padding-left: 0;
+		}
+		ul li 
+		{
+			display: inline-block;
+			padding:0 20px;
+		}
+		ul li a 
+		{
+			text-decoration: none;
+			color: black;
+			padding-bottom: 5px;
+			font-size: 17px;
+		}
+		ul li a:hover
+		{
+			border-bottom: 2px solid #49B876;
+		}
+		input[type="text"] {
+			display: block;
+			margin-top: 100px;
+		}
+	}
+	.right-side{
+		float: right;
+		margin:auto;
+	}
+}
