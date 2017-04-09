@@ -76,7 +76,7 @@ body {
 
 /* line 13, ../sass/screen.scss */
 .header {
-  width: 100%;
+  width: 1280px;
   background-image: url("../img/bg-header.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ body {
 /* line 139, ../sass/screen.scss */
 .property {
   background-color: white;
-  width: 80%;
+  width: 920px;
   height: 400px;
   margin-top: 20px;
   margin: 0 auto;
@@ -258,4 +258,13 @@ body {
 .property .right-side {
   float: right;
   margin: auto;
+}
+
+/* line 192, ../sass/screen.scss */
+.best-offer {
+  background-color: white;
+  width: 920px;
+  height: 400px;
+  margin: 20px auto;
+  text-align: center;
 }
